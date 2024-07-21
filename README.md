@@ -35,3 +35,22 @@ Welcome to the Keylogger with Email Alerts project! This tool is designed to dis
    ```bash
    git clone https://github.com/shyamsunder0717/Keylogger-sends-email.git
    cd Keylogger-sends-email
+2. Install the required libraries:
+   ```bash
+   pip install pynput
+   
+## Usage
+
+1. Open the keylogger.py file and configure the email settings:
+   ```bash
+   EMAIL_ADDRESS = 'your_email@example.com'
+   EMAIL_PASSWORD = 'your_email_password'
+2. Run the keylogger:
+   ```bash
+   python keylogger.py
+   
+## Disclaimer
+
+This project is intended for educational purposes only. Unauthorized use of this software for malicious purposes is strictly prohibited and may violate local, state, and federal laws.
+
+   
